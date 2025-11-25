@@ -17,6 +17,14 @@ namespace Functions
             Console.WriteLine("Dit is nu de start van mijn programma");
         }
         
+        internal void Vraag1()
+        {
+            Console.WriteLine("How long do you think you'd survive in a zombie apocalypse?");
+            string antwoord = Console.ReadLine();
+
+            Console.WriteLine(antwoord);
+        }
+        
     }
 
 }
